@@ -2,7 +2,7 @@
 // 그러니깐.. dependencies가 맨위에 있어야 하는 거였잖아... 이 간단한것 때문에 한시간을 허비했네..
 buildscript {
     dependencies {
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.4.2"
     }
 }
 

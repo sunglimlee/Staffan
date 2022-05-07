@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1425" />
         <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/drawable/ic_search.xml" value="0.1425" />
-        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/activity_main.xml" value="0.2875" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_home.xml" value="0.2875" />
         <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_login.xml" value="0.2875" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_setting.xml" value="0.2734375" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_terms.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/layout/fragment_welcome.xml" value="0.2875" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/menu/draw_bottom_nav_menu.xml" value="0.2953125" />
+        <entry key="..\:/Users/Nowlee/Documents/Staffan/app/src/main/res/menu/options_menu.xml" value="0.2734375" />
       </map>
     </option>
   </component>
