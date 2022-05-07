@@ -34,10 +34,10 @@ class MainActivity : AppCompatActivity() {
 
         //Regular Actionbar 등록하고
         setSupportActionBar(binding.toolbarActivityMain)
-        //val drawerLayout: DrawerLayout = binding.drawerLayout
+        val drawerLayout: DrawerLayout = binding.drawerLayout
         appBarConfiguration = AppBarConfiguration(
-            //setOf(R.id.homeFragment, R.id.searchFragment), drawerLayout
-              setOf(R.id.homeFragment, R.id.searchFragment)
+            setOf(R.id.homeFragment, R.id.searchFragment), drawerLayout
+              //setOf(R.id.homeFragment, R.id.searchFragment)
         )
         //그 regular Actionbar를 navController를 넣어주어서 setup을 한다.
         //색깔때문에 마치 없는것 처럼 보여서 안되었구나.. ㅋ.... 많이 배웠다.
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         )
         //NavigationUI.setupWithNavController(binding.bottomNavigationView, navController)
         //binding.bottomNavigationView.setupWithNavController(navController)
-//        binding.navView.setupWithNavController(navController)
+        binding.navView.setupWithNavController(navController)
     }
 /*
         binding.bottomNavigationView.setOnItemSelectedListener {
@@ -85,6 +85,8 @@ class MainActivity : AppCompatActivity() {
             // 만들어져 있고 (androidx.naviation.ui) MenuItem이 들어오면 그 확장함수를 쓸 수 있다는 거다.
             // 그렇게 MenuItem을 확장해 나가는거다. 단
             item.onNavDestinationSelected(navController) || super.onOptionsItemSelected(item)
+            // 위에 문장이 true false를 리턴하는 건데.. 바로 밑에다가 무조건 true를 넣어놓으니깐 문제가 생기는거지...
+            // 이거때메 햄버거 아이콘 문제 무지하게 생겼잖아... 또 2시간 그냥갔다. 지금 저녁 7시.. 오마이갓...
         }
     }
 }
